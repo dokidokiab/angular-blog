@@ -1,0 +1,20 @@
+.articles{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.title-news{
+  margin-left: 20px;
+  color: #926cb5;
+}
+
+.articles__first__row, .articles__second__row{
+  display: flex;
+  flex-direction: row;
+}
+
+.articles__second__row{
+  margin: 0 auto;
+}
+
+

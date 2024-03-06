@@ -1,0 +1,29 @@
+.title_main{
+
+  width: 700px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.menu__title h1{
+  font-size: 8rem;
+  color: #926cb5;
+}
+
+.menu__title .title_italic{
+  font-weight: 200;
+}
+
+.menu__title{
+  margin: 4rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  text-align: center;
+
+}
+
+.subtitle_main{
+  color: #926cb5;
+}
