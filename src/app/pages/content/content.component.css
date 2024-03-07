@@ -1,0 +1,27 @@
+.container__content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  width: 100%;
+}
+
+.content__image img{
+  max-width: 40rem;
+  border-radius: 1rem;
+}
+
+.content__title{
+  width: 40rem;
+}
+
+.content__title h1{
+  font-weight: 600;
+  text-align: center;
+  color: #926cb5;
+}
+
+.content__description{
+  font-size: 30px;
+}

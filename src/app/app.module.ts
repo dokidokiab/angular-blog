@@ -9,6 +9,7 @@ import { HeadlineNewsComponent } from './components/headline-news/headline-news.
 import { CommonNewsComponent } from './components/common-news/common-news.component';
 import { LineSeparatorComponent } from './components/line-separator/line-separator.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ContentComponent } from './pages/content/content.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomeComponent } from './pages/home/home.component';
     HeadlineNewsComponent,
     CommonNewsComponent,
     LineSeparatorComponent,
-    HomeComponent
+    HomeComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
